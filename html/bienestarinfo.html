@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion Bienestar</title>
+    <link rel="stylesheet" href="../css/BINFO.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card {
+            margin-bottom: 20px; /* Espacio entre las tarjetas */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tittle">
+        <h1>INFORMACION DE DEPORTES Y ACTIVIDADES RECREATIVAS</h1>
+    </div>
+    <p>
+        En esta página podrá ver los deportes y diferentes actividades que ofrece nuestra universidad, así como también puede ver qué requisitos o requerimientos se les pide para un correcto ingreso en alguna de nuestras actividades o deportes.
+    </p>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4">
+                <!-- Card 1 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/futbol.jpg" class="card-img-top" alt="Futbol Imagen">
+                    <div class="card-body">
+                        <h5 class="card-title">Futbol</h5>
+                        <p class="card-text">Presiona el siguiente botón para poder visualizar los requisitos que se piden para la aceptación de su registro a esta actividad.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+                            Requisitos
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <!-- Card 2 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/Taekwondo.avif" class="card-img-top" alt="Taekwondo Imagen">
+                    <div class="card-body">
+                        <h5 class="card-title">Taekwondo</h5>
+                        <p class="card-text">Presiona el siguiente botón para poder visualizar los requisitos que se piden para la aceptación de su registro a esta actividad.</p>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal2">
+                            Requisitos
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <!-- Card 3 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/Baloncesto.webp" class="card-img-top" alt="Baloncesto Imagen">
+                    <div class="card-body">
+                        <h5 class="card-title">Baloncesto</h5>
+                        <p class="card-text">Presiona el siguiente botón para poder visualizar los requisitos que se piden para la aceptación de su registro a esta actividad.</p>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal3">
+                            Requisitos
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <!-- Card 4 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/Danza.jpg" class="card-img-top" alt="Danza Imagenes">
+                    <div class="card-body">
+                        <h5 class="card-title">Danza</h5>
+                        <p class="card-text">Presiona el siguiente botón para poder visualizar los requisitos que se piden para la aceptación de su registro a esta actividad.</p>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal4">
+                            Requisitos
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <!-- Card 5 -->
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/instrumentos.jpg" class="card-img-top" alt="Musica Imagen">
+                    <div class="card-body">
+                        <h5 class="card-title">Música</h5>
+                        <p class="card-text">Presiona el siguiente botón para poder visualizar los requisitos que se piden para la aceptación de su registro a esta actividad.</p>
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal5">
+                            Requisitos
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Información Para Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Nombre Completo</li>
+                        <li>Numero de documento (T.I o C.C)</li>
+                        <li>Programa que está cursando</li>
+                        <li>Cuatrimestre</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Información Para Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Nombre Completo</li>
+                        <li>Numero de documento (T.I o C.C)</li>
+                        <li>Programa que está cursando</li>
+                        <li>Cuatrimestre</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3 -->
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel3">Información Para Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Nombre Completo</li>
+                        <li>Numero de documento (T.I o C.C)</li>
+                        <li>Programa que está cursando</li>
+                        <li>Cuatrimestre</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4 -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel4">Información Para Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Nombre Completo</li>
+                        <li>Numero de documento (T.I o C.C)</li>
+                        <li>Programa que está cursando</li>
+                        <li>Cuatrimestre</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5 -->
+    <div class="modal fade" id="exampleModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel5">Información Para Registro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Nombre Completo</li>
+                        <li>Numero de documento (T.I o C.C)</li>
+                        <li>Programa que está cursando</li>
+                        <li>Cuatrimestre</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Pie de página
+    <div class="footer-container">
+        <footer class="footer">
+            <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        </footer>
+    </div>-->
+    
+</body>
+</html>
